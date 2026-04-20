@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "c6e5dc085ee9839b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f6d1a0be1507ed3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c8d87c7288f2184",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b84a8237adc05d80",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c50702c2de9b9bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ea0a053d592d717",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "7ea10978b6cc77d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "2d91139e35d4c889",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "592e94ca91669ad9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5fb1d408b04c015",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c240a8bdb36ec03",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/fbm/fbm.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "fbm 的反向連結"
+            }
+          },
+          {
+            "id": "0d06cea0080de18a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projects/fbm/fbm.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "fbm 的對外連結"
+            }
+          },
+          {
+            "id": "53380e08e12bdd9b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "6344d210f0ca6ed6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "f66e869cc7cc0784",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/fbm/fbm.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "fbm 的大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false
+    }
+  },
+  "active": "7c8d87c7288f2184",
+  "lastOpenFiles": [
+    "未命名.canvas",
+    "README.md",
+    "Notes/未命名.base",
+    "Projects/crs/crs.md",
+    "Projects/fbm/訂席.md",
+    "Projects/[work-flow]/hr2.md",
+    "Projects/[work-flow]/flow2.md",
+    "Projects/[work-flow]",
+    "Projects/fbm/初洽.md",
+    "Projects/fbm/訂位.md",
+    "Projects/fbm/Overview.md",
+    "Projects/fbm",
+    "Projects/bi/BI.md",
+    "Projects/bi",
+    "Projects/framework/template.md",
+    "Projects/fbm/fbm.md",
+    "Projects/workflow/Flow2.md",
+    "Projects/platform/template.md",
+    "Projects/platform/MainFramework.md",
+    "Projects/platform/IT.md",
+    "Projects/platform/eip.md",
+    "Projects/crs",
+    "Projects/workflow",
+    "Projects/platform"
+  ]
+}
