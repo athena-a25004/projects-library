@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5f6d1a0be1507ed3",
+        "id": "214b03ab971823ea",
         "type": "tabs",
         "children": [
           {
-            "id": "7c8d87c7288f2184",
+            "id": "920ef35e4eacea46",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Projects/[shared-libs]/vue-bac-lib-v-3/套件使用說明.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "套件使用說明"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "底層依賴",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 305.5
   },
   "right": {
     "id": "592e94ca91669ad9",
@@ -160,8 +164,21 @@
               "icon": "lucide-list",
               "title": "fbm 的大綱"
             }
+          },
+          {
+            "id": "d6a46a2d0fb04202",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Projects/[shared-libs]/vue-bac-lib-v-3/套件使用說明.md"
+              },
+              "icon": "lucide-info",
+              "title": "套件使用說明 的檔案屬性"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -179,29 +196,40 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "7c8d87c7288f2184",
+  "active": "920ef35e4eacea46",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "README.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/外部使用說明.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/套件使用說明.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/套件-Factory範例.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Model實作指南.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Overview.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/套件-API速查.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/UI元件.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Utils-Services.md",
+    "Areas/Code Standards/Overview.md",
+    "Areas/Architecture/Overview.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Model速查.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/套件-Define寫法.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Model 列表.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Core類.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Auto引擎.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Grid欄位元件.md",
+    "Projects/[shared-libs]/bac-apis.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3",
+    "Areas/DevOps/Dev Log.md",
+    "Templates/Project Overview.md",
     "Notes/未命名.base",
-    "Projects/crs/crs.md",
-    "Projects/fbm/訂席.md",
-    "Projects/[work-flow]/hr2.md",
-    "Projects/[work-flow]/flow2.md",
+    "Projects/crs/Overview.md",
+    "Projects/bi/Overview.md",
+    "Projects/pms/Overview.md",
+    "Resources/Syncfusion/Syncfusion.md",
+    "Resources/Nuxt4/Nuxt4.md",
+    "Resources/Vue3/Vue3.md",
+    "未命名.canvas",
     "Projects/[work-flow]",
-    "Projects/fbm/初洽.md",
-    "Projects/fbm/訂位.md",
-    "Projects/fbm/Overview.md",
     "Projects/fbm",
-    "Projects/bi/BI.md",
     "Projects/bi",
-    "Projects/framework/template.md",
-    "Projects/fbm/fbm.md",
-    "Projects/workflow/Flow2.md",
-    "Projects/platform/template.md",
-    "Projects/platform/MainFramework.md",
-    "Projects/platform/IT.md",
-    "Projects/platform/eip.md",
     "Projects/crs",
     "Projects/workflow",
     "Projects/platform"
