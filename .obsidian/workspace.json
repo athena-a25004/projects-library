@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "214b03ab971823ea",
+        "id": "c1752f20e7bff0c8",
         "type": "tabs",
         "children": [
           {
-            "id": "920ef35e4eacea46",
+            "id": "d22e4ff50cbb3d68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/[shared-libs]/vue-bac-lib-v-3/套件使用說明.md",
+                "file": "Projects/fbm/訂位/狀態系統.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "套件使用說明"
+              "title": "狀態系統"
             }
           }
         ]
@@ -193,28 +193,34 @@
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false
+      "bases:建立新的 base": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "920ef35e4eacea46",
+  "active": "d22e4ff50cbb3d68",
   "lastOpenFiles": [
-    "Projects/[shared-libs]/vue-bac-lib-v-3/外部使用說明.md",
+    "Projects/fbm/訂位/訂位.md",
+    "Projects/fbm/訂位/資料模型.md",
+    "Projects/fbm/訂位/BookingListCard.md",
+    "Projects/fbm/訂位/狀態系統.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Overview.md",
+    "Projects/fbm/訂位",
+    "Projects/[shared-libs]/bac-apis.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Utils-Services.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/UI元件.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/Model 列表.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/套件使用說明.md",
+    "Projects/[shared-libs]/vue-bac-lib-v-3/外部使用說明.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/套件-Factory範例.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/Model實作指南.md",
-    "Projects/[shared-libs]/vue-bac-lib-v-3/Overview.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/套件-API速查.md",
-    "Projects/[shared-libs]/vue-bac-lib-v-3/UI元件.md",
-    "Projects/[shared-libs]/vue-bac-lib-v-3/Utils-Services.md",
     "Areas/Code Standards/Overview.md",
     "Areas/Architecture/Overview.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/Model速查.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/套件-Define寫法.md",
-    "Projects/[shared-libs]/vue-bac-lib-v-3/Model 列表.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/Core類.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/Auto引擎.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3/Grid欄位元件.md",
-    "Projects/[shared-libs]/bac-apis.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3.md",
     "Projects/[shared-libs]/vue-bac-lib-v-3",
     "Areas/DevOps/Dev Log.md",
@@ -222,10 +228,6 @@
     "Notes/未命名.base",
     "Projects/crs/Overview.md",
     "Projects/bi/Overview.md",
-    "Projects/pms/Overview.md",
-    "Resources/Syncfusion/Syncfusion.md",
-    "Resources/Nuxt4/Nuxt4.md",
-    "Resources/Vue3/Vue3.md",
     "未命名.canvas",
     "Projects/[work-flow]",
     "Projects/fbm",

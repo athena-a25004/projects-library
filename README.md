@@ -91,6 +91,51 @@ tags: []
 
 ---
 
+## 版號與文件對齊規則
+
+### 分支模型
+
+| 分支 | 版號 | 說明 |
+|------|------|------|
+| master | n | 客戶的穩定版本 |
+| release | n+1 | 已發布、尚未落地的版本 |
+| develop | n+2 | 開發中版本，新功能以此為基礎 |
+
+### 核心原則
+
+1. **文件永遠對齊 develop（n+2）** — 開發者用，查閱頻率最高
+2. **不依版號分文件** — 只維護一份，記現狀 + 記變更
+3. **差異用「尚未落地的變更」追蹤** — 兩層 buffer 對應 release / master 的落差
+4. **相依性變更雙向記錄** — A 改了 B 也要寫，用 `[[連結#heading]]` 互指
+
+### Overview.md 版號欄位
+
+```yaml
+---
+version: x.y.z           # develop 版號（文件描述的版本）
+version-release: x.y.z   # release 分支版號
+version-master: x.y.z    # master 分支版號
+---
+```
+
+### 版本推進時的更新流程
+
+- **release → master 落地時**：`version-master` 更新，清空「在 release 但尚未到 master」
+- **develop → release 時**：`version-release` 更新，開發中項目搬到 release 區塊
+
+### Breaking Changes 格式
+
+```markdown
+### vX.Y.Z — 單句總結變更
+- **日期**：YYYY-MM-DD
+- **影響**：A ↔ B
+- **before**：舊行為
+- **after**：新行為
+- **原因**：為什麼要改
+```
+
+---
+
 ## 插件需求
 - **Dataview** — Dashboard 聚合、Dev Log 時間線查詢
 - **Templater**（建議）— 套用 Templates/ 內的模板

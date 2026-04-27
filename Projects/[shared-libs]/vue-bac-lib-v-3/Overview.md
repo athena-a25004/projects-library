@@ -3,6 +3,8 @@ type: project-overview
 repo: ~/fai2/vue-bac-lib-v-3
 generation: fai2
 version: 3.1.9
+version-release: 
+version-master: 
 status: active
 stack: [Vue 3, Vite, TypeScript, Syncfusion EJ2, Element Plus, Tailwind, RxJS]
 tags: [fai2, library, component-library]
@@ -36,13 +38,17 @@ flowchart TD
     biz -->|extends / uses| vbl
     vbl -->|wraps| deps
 
-    classDef bizStyle fill:#bfdbfe,stroke:#93c5fd,color:#1e3a5f
-    classDef libStyle fill:#a7f3d0,stroke:#6ee7b7,color:#064e3b
-    classDef depStyle fill:#ddd6fe,stroke:#c4b5fd,color:#2e1065
+    classDef bizStyle fill:#9276d6,stroke:#7554c0,color:#fff
+    classDef libStyle fill:#f3f4f6,stroke:#d1d5db,color:#1f2937
+    classDef depStyle fill:#4b5563,stroke:#374151,color:#f9fafb
 
     class biz bizStyle
     class cores,model,ui,auto,utils libStyle
     class sf,ep depStyle
+
+    style vbl fill:none,stroke:#d1d5db,stroke-width:1.5px
+    style deps fill:none,stroke:#6b7280,stroke-width:1.5px
+
 ```
 
 ## 主要 Entry Point
@@ -54,6 +60,19 @@ flowchart TD
 | `src/registerLicense.ts` | Syncfusion 授權 Key 注入               |
 | `src/context.ts`         | 全局 context（~600 行）                 |
 | `src/services.ts`        | 全局服務（~600 行）                       |
+
+## 相依關係
+<!-- 永遠描述 develop 的現狀 -->
+- 被依賴方：fbm、pms、crs、bi 等所有業務專案
+- 底層依賴：Syncfusion EJ2 Vue、Element Plus
+
+## 尚未落地的變更
+
+### 在 release 但尚未到 master
+
+### 在 develop 但尚未到 release
+
+## Breaking Changes
 
 ## 建置與發布
 
@@ -85,8 +104,6 @@ app.use(install)
 - RxJS 用於 Core 類內部狀態管理（非響應式替代，為程序流控制）
 
 ## 已知問題 / 技術債
-
-<!-- 填入實際遇到的問題 -->
 
 ## 相關連結
 
